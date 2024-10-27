@@ -95,3 +95,30 @@ Maintainer for versions 1.9 and onwards - RDE
 ---
 
 *Last Updated: 2024-10-27*
+
+
+# Copyright Notice
+
+I hereby declare that my project incorporates third-party modules, which may be subject to copyright protection. I respect the legal rights and interests of all original authors and have no intention of infringing upon any copyright or intellectual property rights.
+
+If any author or copyright holder believes that my project uses their modules without proper authorization or in violation of their copyright, please contact me through the following means:
+
+Email: [3690695933@qq.com](mailto:3690695933@qq.com)
+
+I pledge to take immediate and necessary actions once I receive a notice of infringement, including but not limited to removing the infringing content, providing appropriate copyright notices, or paying the corresponding copyright fees.
+
+This statement is intended to ensure that all copyright issues are addressed in a timely and proper manner.
+
+---
+
+# 版权声明
+
+我在此声明，我的项目中包含了第三方模块，这些模块可能受到版权保护。我尊重所有原创作者的合法权益，并无意侵犯任何版权或知识产权。
+
+如果任何作者或版权持有人认为我的项目中使用了他们的模块而未得到适当授权或违反了他们的版权，请通过以下方式与我联系：
+
+电子邮件：[3690695933@qq.com](mailto:3690695933@qq.com)
+
+我承诺，一旦收到侵权通知，将立即采取必要措施，包括但不限于移除侵权内容、提供适当的版权声明或支付相应的版权费用。
+
+此声明旨在确保所有版权问题能够得到及时和妥善的处理。
