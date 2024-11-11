@@ -1,10 +1,10 @@
-# ROOTassistant_HideRootGrass_scr<span style="color: #FF0000;">（ROOT助手隐藏Root草稿脚本）</span>
+# RootCloak<span style="color: #FF0000;">（ShadowRoot）</span>
 
 该项目是一个bash脚本，用于通过下载并安装特定的Magisk模块来隐藏Root痕迹。它特别适用于需要绕过应用检测Root权限的用户。
 
 ## 项目概述
 
-`ROOTassistant_HideRootGrass_scr` 脚本通过自动下载并配置必要的Magisk模块，帮助用户隐藏Root状态。这使得用户可以在保持Root功能的同时，避免被应用检测到Root权限。
+`RootCloak_ShadowRoot` 脚本通过自动下载并配置必要的Magisk模块，帮助用户隐藏Root状态。这使得用户可以在保持Root功能的同时，避免被应用检测到Root权限。
 
 ## 使用的Magisk模块
 
@@ -25,7 +25,7 @@
 ## 安装指南
 
 1. 确保您的设备已经安装了root管理器，并处于适配的版本之一。
-2. 下载`ROOTassistant_HideRootGrass_scr`脚本。
+2. 下载`RootCloak_ShadowRoot`脚本。
 3. 将脚本复制到设备的可执行路径下，并给予执行权限。
 4. 运行脚本以自动下载并配置依赖的模块达到隐藏root。
 
@@ -48,13 +48,13 @@
 
 ---
 
-# ROOTassistant_HideRootGrass_scr<span style="color: #FF0000;">（ROOT Assistant Hide Root Grass Script）</span>
+# RootCloak<span style="color: #FF0000;">（ShadowRoot）</span>
 
 This project is a bash script designed to hide root traces by downloading and installing specific Magisk modules. It is particularly suitable for users who need to bypass app detection of root permissions.
 
 ## Project Overview
 
-The `ROOTassistant_HideRootGrass_scr` script assists users in hiding root status by automatically downloading and configuring the necessary Magisk modules. This allows users to maintain root functionality while avoiding detection by apps.
+The `RootCloak_ShadowRoot` script assists users in hiding root status by automatically downloading and configuring the necessary Magisk modules. This allows users to maintain root functionality while avoiding detection by apps.
 
 ## Magisk Modules Used
 
@@ -75,7 +75,7 @@ This project is compatible with the following Magisk versions:
 ## Installation Guide
 
 1. Ensure your device has a root manager installed and is one of the supported versions.
-2. Download the `ROOTassistant_HideRootGrass_scr` script.
+2. Download the `RootCloak_ShadowRoot` script.
 3. Copy the script to an executable path on your device and grant execution permissions.
 4. Run the script to automatically download and configure the dependent modules to hide root.
 
@@ -103,7 +103,7 @@ I hereby declare that my project incorporates third-party modules, which may be 
 
 If any author or copyright holder believes that my project uses their modules without proper authorization or in violation of their copyright, please contact me through the following means:
 
-Email: [3690695933@qq.com](mailto:3690695933@qq.com)
+Email: [3761106946@qq.com](mailto:3761106946@qq.com)
 
 I pledge to take immediate and necessary actions once I receive a notice of infringement, including but not limited to removing the infringing content, providing appropriate copyright notices, or paying the corresponding copyright fees.
 
@@ -117,7 +117,7 @@ This statement is intended to ensure that all copyright issues are addressed in 
 
 如果任何作者或版权持有人认为我的项目中使用了他们的模块而未得到适当授权或违反了他们的版权，请通过以下方式与我联系：
 
-电子邮件：[3690695933@qq.com](mailto:3690695933@qq.com)
+电子邮件：[3761106946@qq.com](mailto:3761106946@qq.com)
 
 我承诺，一旦收到侵权通知，将立即采取必要措施，包括但不限于移除侵权内容、提供适当的版权声明或支付相应的版权费用。
 
