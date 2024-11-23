@@ -1,124 +1,96 @@
-# RootCloak<span style="color: #FF0000;">（ShadowRoot）</span>
+# RootCloak（ShadowRoot）
 
-该项目是一个bash脚本，用于通过下载并安装特定的Magisk模块来隐藏Root痕迹。它特别适用于需要绕过应用检测Root权限的用户。
+## Project Background and Motivation
 
-## 项目概述
+In the Android ecosystem, Root access provides users with significant flexibility and control, but it also poses security risks and compatibility issues. Many applications detect Root status to prevent cheating or abuse. The `RootCloak_ShadowRoot` project aims to provide a simple and user-friendly solution that allows users to bypass these Root detection mechanisms while maintaining Root functionality.
 
-`RootCloak_ShadowRoot` 脚本通过自动下载并配置必要的Magisk模块，帮助用户隐藏Root状态。这使得用户可以在保持Root功能的同时，避免被应用检测到Root权限。
+## Key Features
 
-## 使用的Magisk模块
+- **Automatic Configuration**: Automatically downloads and configures Magisk modules to hide Root status.
+- **Multi-Version Support**: Supports multiple Magisk versions, including Magisk Alpha, Magisk Kitsune Mask, APatch, and KernelSU.
+- **No Manual Intervention**: The script handles all configurations automatically; users do not need to intervene manually.
 
-本项目使用的Magisk模块包括：
+## Installation Steps
 
-- **<span style="color: #0080FF;">TrickyStore</span>**：5ec1cff 用于隐藏打开的Bootloader Lock [链接](https://github.com/5ec1cff/TrickyStore/)。配置方式通过脚本的前置配置程序自动下载模块并放入依赖。
-- **<span style="color: #0080FF;">Zygisk-Next</span>**：zygisk的独立实现，用于支持shamiko的运行 [链接](https://github.com/Dr-TSNG/ZygiskNext/)。配置方式通过脚本的前置配置程序自动下载模块并放入依赖。
+1. **Confirm Device Root Status**: Ensure your device is already rooted and using one of the supported versions.
+2. **Download the Script**: Download the `RootCloak_ShadowRoot` script.
+3. **Copy and Grant Permissions**: Copy the script to an executable path on your device and grant it execution permissions.
+4. **Run the Script**: Execute the script to automatically download and configure the necessary modules to hide Root.
 
-## 适配的Magisk版本
+## Custom Configuration
 
-本项目适配以下Magisk版本：
+The `RootCloak_ShadowRoot` script supports basic custom configurations. You can adjust the module download links or other settings by editing the configuration file within the script or by executing configuration commands.
 
-- **Magisk Alpha**
-- **Magisk Kitsune Mask**
-- **APatch**
-- **KernelSU**
+## Version Update Log
 
-## 安装指南
+- **2024-10-27**: Added support for KernelSU.
+- **2024-09-15**: Optimized the script's automatic download and configuration process.
 
-1. 确保您的设备已经安装了root管理器，并处于适配的版本之一。
-2. 下载`RootCloak_ShadowRoot`脚本。
-3. 将脚本复制到设备的可执行路径下，并给予执行权限。
-4. 运行脚本以自动下载并配置依赖的模块达到隐藏root。
+## Testing and Verification
 
-## 使用说明
+After running the script, you can use various tools to verify whether the Root status has been successfully hidden.
 
-在安装并设置好所有必要的依赖后，运行脚本即可开始隐藏Root痕迹。脚本会自动下载并配置<span style="color: #0080FF;">TrickyStore</span>和<span style="color: #0080FF;">Zygisk-Next</span>模块以及其他模块，无需手动干预。
+## Acknowledgments
 
-## 贡献指南
+Thanks to all developers and users who have contributed to the `RootCloak_ShadowRoot` project.
 
-如果您发现任何问题或有改进建议，欢迎通过GitHub的Issue或Pull Request功能提交。
+## Used Magisk Modules and Author Information
 
-## 维护者
+The Magisk modules used in this project and their author information are as follows:
 
-0.1-1.92版本的维护者 - RE2024
-1.9往后将会是RDE维护
+1. **TrickyStore**
+   - **Author**: 5ec1cff
+   - **Project Link**: [TrickyStore GitHub](https://github.com/5ec1cff/TrickyStore/)
+   - **Author Homepage**: [5ec1cff GitHub](https://github.com/5ec1cff)
 
----
+2. **Zygisk-Next**
+   - **Author**: Dr-TSNG
+   - **Project Link**: [Zygisk-Next GitHub](https://github.com/Dr-TSNG/ZygiskNext/)
+   - **Author Homepage**: [Dr-TSNG GitHub](https://github.com/Dr-TSNG) [5ec1cff GitHub](https://github.com/5ec1cff)
 
-*最后更新日期：2024-10-27*
-
----
-
-# RootCloak<span style="color: #FF0000;">（ShadowRoot）</span>
-
-This project is a bash script designed to hide root traces by downloading and installing specific Magisk modules. It is particularly suitable for users who need to bypass app detection of root permissions.
-
-## Project Overview
-
-The `RootCloak_ShadowRoot` script assists users in hiding root status by automatically downloading and configuring the necessary Magisk modules. This allows users to maintain root functionality while avoiding detection by apps.
-
-## Magisk Modules Used
-
-The Magisk modules used in this project include:
-
-- **<span style="color: #0080FF;">TrickyStore</span>**: 5ec1cff for hiding the open Bootloader Lock [Link](https://github.com/5ec1cff/TrickyStore/). The configuration is automatically downloaded and added to dependencies through the script's pre-configuration program.
-- **<span style="color: #0080FF;">Zygisk-Next</span>**: An independent implementation of zygisk for supporting the operation of shamiko [Link](https://github.com/Dr-TSNG/ZygiskNext/). The configuration is automatically downloaded and added to dependencies through the script's pre-configuration program.
-
-## Supported Magisk Versions
-
-This project is compatible with the following Magisk versions:
-
-- **Magisk Alpha**
-- **Magisk Kitsune Mask**
-- **APatch**
-- **KernelSU**
-
-## Installation Guide
-
-1. Ensure your device has a root manager installed and is one of the supported versions.
-2. Download the `RootCloak_ShadowRoot` script.
-3. Copy the script to an executable path on your device and grant execution permissions.
-4. Run the script to automatically download and configure the dependent modules to hide root.
-
-## Usage Instructions
-
-After installing and setting up all necessary dependencies, running the script will begin hiding root traces. The script will automatically download and configure the <span style="color: #0080FF;">TrickyStore</span> and <span style="color: #0080FF;">Zygisk-Next</span> modules as well as other modules without manual intervention.
-
-## Contribution Guide
-
-If you find any issues or have suggestions for improvement, feel free to submit them through GitHub's Issue or Pull Request features.
-
-## Maintainers
-
-Maintainer for versions 0.1-1.92 - RE2024
-Maintainer for versions 1.9 and onwards - RDE
+3. **Other Modules**
+   - **Authors**: Multiple contributors
+   - **Project Link**: [GitHub](https://github.com/)
 
 ---
-
-*Last Updated: 2024-10-27*
-
 
 # Copyright Notice
 
-I hereby declare that my project incorporates third-party modules, which may be subject to copyright protection. I respect the legal rights and interests of all original authors and have no intention of infringing upon any copyright or intellectual property rights.
+## Respecting Copyright and Intellectual Property
 
-If any author or copyright holder believes that my project uses their modules without proper authorization or in violation of their copyright, please contact me through the following means:
+The `RootCloak_ShadowRoot` project uses third-party modules that may be protected by copyright. We respect the legal rights of all original authors and do not intend to infringe upon any copyright or intellectual property.
 
-Email: [3761106946@qq.com](mailto:3761106946@qq.com)
+## Third-Party Module Usage Statement
 
-I pledge to take immediate and necessary actions once I receive a notice of infringement, including but not limited to removing the infringing content, providing appropriate copyright notices, or paying the corresponding copyright fees.
+The following are the third-party modules used in this project and their author information:
 
-This statement is intended to ensure that all copyright issues are addressed in a timely and proper manner.
+1. **TrickyStore**
+   - **Author**: 5ec1cff
+   - **Project Link**: [TrickyStore GitHub](https://github.com/5ec1cff/TrickyStore/)
+   - **Author Homepage**: [5ec1cff GitHub](https://github.com/5ec1cff)
 
----
+2. **Zygisk-Next**
+   - **Author**: Dr-TSNG
+   - **Project Link**: [Zygisk-Next GitHub](https://github.com/Dr-TSNG/ZygiskNext/)
+   - **Author Homepage**: [Dr-TSNG GitHub](https://github.com/Dr-TSNG) [5ec1cff GitHub](https://github.com/5ec1cff)
 
-# 版权声明
+3. **Other Modules**
+   - **Authors**: Multiple contributors
+   - **Project Link**: [GitHub](https://github.com/)
 
-我在此声明，我的项目中包含了第三方模块，这些模块可能受到版权保护。我尊重所有原创作者的合法权益，并无意侵犯任何版权或知识产权。
+## Handling Copyright Issues
 
-如果任何作者或版权持有人认为我的项目中使用了他们的模块而未得到适当授权或违反了他们的版权，请通过以下方式与我联系：
+If any author or copyright holder believes that their module has been used in this project without proper authorization or in violation of their copyright, please contact me via the following methods:
 
-电子邮件：[3761106946@qq.com](mailto:3761106946@qq.com)
+Email: [fine4trn@163.com](mailto:fine4trn@163.com)
 
-我承诺，一旦收到侵权通知，将立即采取必要措施，包括但不限于移除侵权内容、提供适当的版权声明或支付相应的版权费用。
+I commit to taking necessary actions upon receiving a notice of infringement, including but not limited to:
 
-此声明旨在确保所有版权问题能够得到及时和妥善的处理。
+- Deleting the project
+- Removing the infringing content
+- Providing appropriate copyright notices
+- Paying corresponding copyright fees
+
+This statement is intended to ensure that all copyright issues are addressed promptly and appropriately.
+
+*Last updated: 2024-11-23*
